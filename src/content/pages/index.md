@@ -1,9 +1,7 @@
 ---
 _schema: default
 title: Home
-description: >-
-  Astro Component Starter: fast, visually editable components for Astro and
-  CloudCannon—docs, blog, and patterns for shipping real sites.
+description:
 keywords: []
 pageSections:
   - _component: page-sections/heroes/hero-center
