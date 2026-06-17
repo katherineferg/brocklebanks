@@ -1,5 +1,5 @@
 {
-  "logoSource": "/src/assets/images/component-docs/acs-logo.svg",
+  "logoSource": "/src/assets/images/screenshot-2026-06-17-at-7-30-57-pm.png",
   "logoAlternateSource": "/src/assets/images/component-docs/acs-logo-dark.svg",
   "logoAlt": "Astro Component Starter",
   "themeToggle": true,
@@ -32,6 +32,7 @@
       "hideText": true,
       "link": "/search/",
       "iconName": "magnifying-glass",
+      "iconColor": "default",
       "iconPosition": "before",
       "variant": "ghost",
       "size": "lg"

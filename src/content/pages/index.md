@@ -2,12 +2,14 @@
 _schema: default
 title: Home
 description: >-
-  Astro Component Starter: fast, visually editable components for Astro and CloudCannon—docs,
-  blog, and patterns for shipping real sites.
+  Astro Component Starter: fast, visually editable components for Astro and
+  CloudCannon—docs, blog, and patterns for shipping real sites.
+keywords: []
 pageSections:
   - _component: page-sections/heroes/hero-center
+    sectionLabel:
     eyebrow:
-    heading: The Astro Component Starter for building any site
+    heading: Brocklebanks Leather Services
     subtext: >-
       Built on web fundamentals. Easy to customize, fast to use, and simple to
       maintain.
@@ -17,6 +19,7 @@ pageSections:
         hideText: false
         link: /component-docs/
         iconName: ''
+        iconColor: default
         iconPosition: before
         variant: primary
         size: md
@@ -25,12 +28,25 @@ pageSections:
         hideText: false
         link: https://github.com/CloudCannon/astro-component-starter
         iconName: ''
+        iconColor: default
         iconPosition: before
         variant: secondary
         size: md
+    maxContentWidth: 2xl
+    paddingHorizontal: lg
+    paddingVertical: 4xl
     colorScheme: inherit
     backgroundColor: base
+    background:
+      type: image
+      positionVertical: top
+      positionHorizontal: center
+      priority: false
+      imageSource: ''
+      imageAlt: ''
+      overlay: 0
   - _component: page-sections/features/feature-split
+    sectionLabel: ''
     eyebrow: Built for Astro
     heading: Fast, modern, and easy to work with
     subtext: >-
@@ -43,9 +59,21 @@ pageSections:
     imageAspectRatio: none
     imageRounded: false
     reverse: false
+    maxContentWidth: xl
+    paddingHorizontal: lg
+    paddingVertical: 4xl
     colorScheme: inherit
     backgroundColor: base
+    background:
+      type: image
+      positionVertical: top
+      positionHorizontal: center
+      priority: false
+      imageSource: ''
+      imageAlt: ''
+      overlay: 0
   - _component: page-sections/features/feature-split
+    sectionLabel: ''
     eyebrow: CloudCannon Ready
     heading: Easy visual editing
     subtext: >-
@@ -59,10 +87,21 @@ pageSections:
     imageAspectRatio: none
     imageRounded: false
     reverse: true
+    maxContentWidth: xl
+    paddingHorizontal: lg
+    paddingVertical: lg
     colorScheme: inherit
     backgroundColor:
-    paddingVertical: lg
+    background:
+      type: image
+      positionVertical: top
+      positionHorizontal: center
+      priority: false
+      imageSource: ''
+      imageAlt: ''
+      overlay: 0
   - _component: page-sections/features/feature-split
+    sectionLabel: ''
     eyebrow: Performance
     heading: Fast by architecture, not by accident
     subtext: >-
@@ -75,9 +114,21 @@ pageSections:
     imageAspectRatio: none
     imageRounded: false
     reverse: false
+    maxContentWidth: xl
+    paddingHorizontal: lg
+    paddingVertical: 4xl
     colorScheme: inherit
     backgroundColor: base
+    background:
+      type: image
+      positionVertical: top
+      positionHorizontal: center
+      priority: false
+      imageSource: ''
+      imageAlt: ''
+      overlay: 0
   - _component: page-sections/features/feature-split
+    sectionLabel: ''
     eyebrow: Documentation
     heading: Every component, clearly documented
     subtext: >-
@@ -90,15 +141,24 @@ pageSections:
     imageAspectRatio: none
     imageRounded: false
     reverse: true
+    maxContentWidth: xl
+    paddingHorizontal: lg
+    paddingVertical: 4xl
     colorScheme: inherit
     backgroundColor: base
+    background:
+      type: image
+      positionVertical: top
+      positionHorizontal: center
+      priority: false
+      imageSource: ''
+      imageAlt: ''
+      overlay: 0
   - _component: page-sections/features/feature-grid
+    sectionLabel: ''
     eyebrow: Principles
     heading: Built for real-world web projects
     subtext: No trends. No noise. Just reliability.
-    gap: xl
-    minItemWidth: 280
-    maxItemWidth: 360
     features:
       - title: Web fundamentals
         description: >-
@@ -130,10 +190,25 @@ pageSections:
           designs without a fight.
         iconName: paint-brush
         iconColor: pink
+    maxContentWidth: 2xl
+    paddingHorizontal: lg
+    paddingVertical: 4xl
     colorScheme: inherit
     backgroundColor: surface
+    background:
+      type: image
+      positionVertical: top
+      positionHorizontal: center
+      priority: false
+      imageSource: ''
+      imageAlt: ''
+      overlay: 0
+    gap: xl
+    minItemWidth: 280
+    maxItemWidth: 360
     alignmentHorizontal: center
   - _component: page-sections/ctas/cta-center
+    sectionLabel: ''
     heading: Ready to start building?
     subtext: >-
       Browse the complete Astro Component Starter and see live examples of every
@@ -145,6 +220,7 @@ pageSections:
         hideText: false
         link: /component-docs/
         iconName: ''
+        iconColor: default
         iconPosition: before
         variant: primary
         size: md
@@ -153,10 +229,22 @@ pageSections:
         hideText: false
         link: https://github.com/CloudCannon/astro-component-starter
         iconName: ''
+        iconColor: default
         iconPosition: before
         variant: tertiary
         size: md
+    maxContentWidth: lg
+    paddingHorizontal: lg
+    paddingVertical: 4xl
     colorScheme: dark
     backgroundColor: surface
+    background:
+      type: image
+      positionVertical: top
+      positionHorizontal: center
+      priority: false
+      imageSource: ''
+      imageAlt: ''
+      overlay: 0
     rounded: false
 ---
