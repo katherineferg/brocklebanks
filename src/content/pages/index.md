@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Home
-description:
+description: Description
 keywords: []
 pageSections:
   - _component: page-sections/heroes/hero-center
