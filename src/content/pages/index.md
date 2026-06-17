@@ -30,7 +30,7 @@ pageSections:
   - _component: page-sections/features/feature-split
     sectionLabel: ''
     eyebrow: What we offer
-    heading: Shoe and Leather Upholstery recolouring
+    heading: Mobile shoe and leather upholstery recolouring
     subtext: >-
       Revive your favourite lounge suite to match your redecorating. Transform
       your home, reinvigorate your wardrobe, shoes and accessories with our
