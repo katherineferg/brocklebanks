@@ -11,27 +11,9 @@ pageSections:
     eyebrow:
     heading: Brocklebanks Leather Services
     subtext: >-
-      Built on web fundamentals. Easy to customize, fast to use, and simple to
-      maintain.
-    buttonSections:
-      - _component: building-blocks/core-elements/button
-        text: Explore Components
-        hideText: false
-        link: /component-docs/
-        iconName: ''
-        iconColor: default
-        iconPosition: before
-        variant: primary
-        size: md
-      - _component: building-blocks/core-elements/button
-        text: View in GitHub
-        hideText: false
-        link: https://github.com/CloudCannon/astro-component-starter
-        iconName: ''
-        iconColor: default
-        iconPosition: before
-        variant: secondary
-        size: md
+      Over 60 years experience serving Otago. Proudly locally owned and operated
+      in Dunedin NZ.
+    buttonSections: []
     maxContentWidth: 2xl
     paddingHorizontal: lg
     paddingVertical: 4xl
@@ -47,12 +29,13 @@ pageSections:
       overlay: 0
   - _component: page-sections/features/feature-split
     sectionLabel: ''
-    eyebrow: Built for Astro
-    heading: Fast, modern, and easy to work with
+    eyebrow: What we offer
+    heading: Shoe and Leather Upholstery recolouring
     subtext: >-
-      The Component Starter takes full advantage of Astro's zero-JS-by-default
-      approach. You get fast pages, simple routing, and a component system that
-      stays easy to use as your site grows.
+      Revive your favourite lounge suite to match your redecorating. Transform
+      your home, reinvigorate your wardrobe, shoes and accessories with our
+      leather recolouring and cleaning service. Brocklebanks are Dunedin and
+      Otago’s leather and suede cleaning experts.
     buttonSections: []
     imageSource: /src/assets/images/component-docs/website-feature.svg
     imageAlt: Website Feature
@@ -72,179 +55,4 @@ pageSections:
       imageSource: ''
       imageAlt: ''
       overlay: 0
-  - _component: page-sections/features/feature-split
-    sectionLabel: ''
-    eyebrow: CloudCannon Ready
-    heading: Easy visual editing
-    subtext: >-
-      Every component is built to work seamlessly in CloudCannon's Visual
-      Editor. Developers can create and style custom Page Sections with Astro.
-      Editors can click, change, and rearrange content right on the page without
-      touching the code or guessing where anything lives.
-    buttonSections: []
-    imageSource: /src/assets/images/component-docs/website-split.svg
-    imageAlt: Website Split
-    imageAspectRatio: none
-    imageRounded: false
-    reverse: true
-    maxContentWidth: xl
-    paddingHorizontal: lg
-    paddingVertical: lg
-    colorScheme: inherit
-    backgroundColor:
-    background:
-      type: image
-      positionVertical: top
-      positionHorizontal: center
-      priority: false
-      imageSource: ''
-      imageAlt: ''
-      overlay: 0
-  - _component: page-sections/features/feature-split
-    sectionLabel: ''
-    eyebrow: Performance
-    heading: Fast by architecture, not by accident
-    subtext: >-
-      Your components render to static HTML, keeping bundles lean and pages
-      instant. Your users get instant page loads. You get a modern developer
-      experience.
-    buttonSections: []
-    imageSource: /src/assets/images/component-docs/website-hero.svg
-    imageAlt: Website Hero
-    imageAspectRatio: none
-    imageRounded: false
-    reverse: false
-    maxContentWidth: xl
-    paddingHorizontal: lg
-    paddingVertical: 4xl
-    colorScheme: inherit
-    backgroundColor: base
-    background:
-      type: image
-      positionVertical: top
-      positionHorizontal: center
-      priority: false
-      imageSource: ''
-      imageAlt: ''
-      overlay: 0
-  - _component: page-sections/features/feature-split
-    sectionLabel: ''
-    eyebrow: Documentation
-    heading: Every component, clearly documented
-    subtext: >-
-      Each component comes with straightforward docs, real examples, full
-      descriptions of every property, and clear guidance without having to dig
-      through source files.
-    buttonSections: []
-    imageSource: /src/assets/images/component-docs/website-documented.svg
-    imageAlt: Website Hero
-    imageAspectRatio: none
-    imageRounded: false
-    reverse: true
-    maxContentWidth: xl
-    paddingHorizontal: lg
-    paddingVertical: 4xl
-    colorScheme: inherit
-    backgroundColor: base
-    background:
-      type: image
-      positionVertical: top
-      positionHorizontal: center
-      priority: false
-      imageSource: ''
-      imageAlt: ''
-      overlay: 0
-  - _component: page-sections/features/feature-grid
-    sectionLabel: ''
-    eyebrow: Principles
-    heading: Built for real-world web projects
-    subtext: No trends. No noise. Just reliability.
-    features:
-      - title: Web fundamentals
-        description: >-
-          Semantic HTML. Lean CSS. JavaScript only when it's needed. The stack
-          is boring by design, and that’s exactly why it works.
-        iconName: cube
-        iconColor: blue
-      - title: Built for speed
-        description: >-
-          Static-rendered, minimal payloads, zero waste. Built to be extremely
-          fast from the first byte.
-        iconName: bolt
-        iconColor: yellow
-      - title: Everything just fits
-        description: >-
-          Simple, predictable components that play nice together. Build bigger
-          pieces without creating a maintenance mess.
-        iconName: puzzle-piece
-        iconColor: green
-      - title: Controlled editing
-        description: >-
-          Enough freedom for editors to move fast. Enough structure for
-          developers to sleep at night.
-        iconName: pencil
-        iconColor: purple
-      - title: Adaptable
-        description: >-
-          Purposefully plain styling. The whole component starter adapts to your
-          designs without a fight.
-        iconName: paint-brush
-        iconColor: pink
-    maxContentWidth: 2xl
-    paddingHorizontal: lg
-    paddingVertical: 4xl
-    colorScheme: inherit
-    backgroundColor: surface
-    background:
-      type: image
-      positionVertical: top
-      positionHorizontal: center
-      priority: false
-      imageSource: ''
-      imageAlt: ''
-      overlay: 0
-    gap: xl
-    minItemWidth: 280
-    maxItemWidth: 360
-    alignmentHorizontal: center
-  - _component: page-sections/ctas/cta-center
-    sectionLabel: ''
-    heading: Ready to start building?
-    subtext: >-
-      Browse the complete Astro Component Starter and see live examples of every
-      component in action. All components are ready to use in CloudCannon and
-      are fully customizable.
-    buttonSections:
-      - _component: building-blocks/core-elements/button
-        text: Explore Components
-        hideText: false
-        link: /component-docs/
-        iconName: ''
-        iconColor: default
-        iconPosition: before
-        variant: primary
-        size: md
-      - _component: building-blocks/core-elements/button
-        text: View in GitHub
-        hideText: false
-        link: https://github.com/CloudCannon/astro-component-starter
-        iconName: ''
-        iconColor: default
-        iconPosition: before
-        variant: tertiary
-        size: md
-    maxContentWidth: lg
-    paddingHorizontal: lg
-    paddingVertical: 4xl
-    colorScheme: dark
-    backgroundColor: surface
-    background:
-      type: image
-      positionVertical: top
-      positionHorizontal: center
-      priority: false
-      imageSource: ''
-      imageAlt: ''
-      overlay: 0
-    rounded: false
 ---
