@@ -16,7 +16,7 @@ pageSections:
     buttonSections: []
     maxContentWidth: 2xl
     paddingHorizontal: lg
-    paddingVertical: 4xl
+    paddingVertical: lg
     colorScheme: inherit
     backgroundColor: base
     background:
@@ -44,7 +44,7 @@ pageSections:
     reverse: false
     maxContentWidth: xl
     paddingHorizontal: lg
-    paddingVertical: 4xl
+    paddingVertical: lg
     colorScheme: inherit
     backgroundColor: base
     background:
