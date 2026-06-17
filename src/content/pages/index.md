@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Home
-description: Description
+description: Local leather upholstery service in Dunedin, Otago
 keywords: []
 pageSections:
   - _component: page-sections/heroes/hero-center
