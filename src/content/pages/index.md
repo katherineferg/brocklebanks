@@ -37,7 +37,7 @@ pageSections:
       leather recolouring and cleaning service. Brocklebanks are Dunedin and
       Otago’s leather and suede cleaning experts.
     buttonSections: []
-    imageSource: /src/assets/images/component-docs/website-feature.svg
+    imageSource: /src/assets/images/screenshot-2026-06-17-at-7-53-33-pm.png
     imageAlt: Website Feature
     imageAspectRatio: none
     imageRounded: false
