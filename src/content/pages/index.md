@@ -7,7 +7,7 @@ pageSections:
   - _component: page-sections/heroes/hero-center
     sectionLabel:
     eyebrow:
-    heading: Brocklebanks Leather Services
+    heading: Brocklebanks Leather Dyeing and Restoration
     subtext: >-
       Over 60 years experience serving Otago. Proudly locally owned and operated
       in Dunedin NZ.
