@@ -53,18 +53,75 @@ pageSections:
       imageSource: ''
       imageAlt: ''
       overlay: 0
-  - _component: page-sections/features/feature-slider
-    sectionLabel: ''
-    slides:
-      - _component: page-sections/features/feature-slider/feature-slider-item
-        eyebrow: ''
-        title: Slide title
-        description: Short description for this slide.
-        imageSource: /src/assets/images/combined-image.jpg
-        imageAlt: Slide image alt text
-    maxContentWidth: xl
-    paddingHorizontal: lg
-    paddingVertical: 4xl
+  - _component: page-sections/builders/custom-section
+    label: Carousel
+    contentSections:
+      - _component: building-blocks/wrappers/carousel
+        label: ''
+        slides:
+          - contentSections:
+              - _component: building-blocks/core-elements/image
+                source: /src/assets/images/combined-image-1.jpg
+                alternateSource:
+                alt: ''
+                sizes: '(max-width: 1280px) 100vw, 1280px'
+                widths:
+                  - 640
+                  - 1280
+                  - 2560
+                width:
+                height:
+                rounded: true
+                aspectRatio: ''
+                positionVertical: center
+                positionHorizontal: center
+                priority: false
+              - _component: building-blocks/core-elements/image
+                source: /src/assets/images/placeholder.png
+                alternateSource:
+                alt: ''
+                sizes: '(max-width: 1280px) 100vw, 1280px'
+                widths:
+                  - 640
+                  - 1280
+                  - 2560
+                width:
+                height:
+                rounded: false
+                aspectRatio: none
+                positionVertical: center
+                positionHorizontal: center
+                priority: false
+              - _component: building-blocks/core-elements/image
+                source: /src/assets/images/combined-image-2.jpg
+                alternateSource:
+                alt: ''
+                sizes: '(max-width: 1280px) 100vw, 1280px'
+                widths:
+                  - 640
+                  - 1280
+                  - 2560
+                width:
+                height:
+                rounded: false
+                aspectRatio: none
+                positionVertical: center
+                positionHorizontal: center
+                priority: false
+        autoPlay: true
+        autoScroll: false
+        loop: true
+        showIndicators: true
+        indicatorStyle: dots
+        showArrows: true
+        alignmentHorizontal: center
+        slidesToScroll: auto
+        slideWidthPercent: 100
+        minSlideWidth: 0
+        gap: none
+    maxContentWidth: 2xl
+    paddingHorizontal: md
+    paddingVertical: md
     colorScheme: inherit
     backgroundColor: base
     background:
@@ -76,4 +133,6 @@ pageSections:
       imageAlt: ''
       videoSource:
       overlay: 0
+    rounded: false
+    useDefaultEditableBinding: true
 ---
