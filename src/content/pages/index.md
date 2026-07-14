@@ -53,4 +53,29 @@ pageSections:
       imageSource: ''
       imageAlt: ''
       overlay: 0
+  - _component: page-sections/features/feature-split
+    sectionLabel: ''
+    eyebrow: Eyebrow text
+    heading: Heading text
+    subtext: Subtext placeholder text that will be replaced with actual content.
+    buttonSections: []
+    imageSource: /src/assets/images/combined-image-5.jpg
+    imageAlt: Feature image
+    imageAspectRatio: portrait
+    imageRounded: true
+    reverse: true
+    maxContentWidth: xl
+    paddingHorizontal: md
+    paddingVertical: md
+    colorScheme: inherit
+    backgroundColor: base
+    background:
+      type: image
+      positionVertical: top
+      positionHorizontal: center
+      priority: false
+      imageSource: /src/assets/images/combined-image-4.jpg
+      imageAlt: ''
+      videoSource:
+      overlay: 0
 ---
