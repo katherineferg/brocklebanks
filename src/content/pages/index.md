@@ -35,7 +35,7 @@ pageSections:
       leather recolouring and cleaning service. Brocklebanks are Dunedin and
       Otago’s leather and suede cleaning experts.
     buttonSections: []
-    imageSource: /src/assets/images/screenshot-2026-06-17-at-7-53-33-pm.png
+    imageSource: /src/assets/images/combined-image-2-1.jpg
     imageAlt: Website Feature
     imageAspectRatio: none
     imageRounded: false
@@ -53,86 +53,4 @@ pageSections:
       imageSource: ''
       imageAlt: ''
       overlay: 0
-  - _component: page-sections/builders/custom-section
-    label: Carousel
-    contentSections:
-      - _component: building-blocks/wrappers/carousel
-        label: ''
-        slides:
-          - contentSections:
-              - _component: building-blocks/core-elements/image
-                source: /src/assets/images/combined-image-1.jpg
-                alternateSource:
-                alt: ''
-                sizes: '(max-width: 1280px) 100vw, 1280px'
-                widths:
-                  - 640
-                  - 1280
-                  - 2560
-                width:
-                height:
-                rounded: true
-                aspectRatio: ''
-                positionVertical: center
-                positionHorizontal: center
-                priority: false
-              - _component: building-blocks/core-elements/image
-                source: /src/assets/images/placeholder.png
-                alternateSource:
-                alt: ''
-                sizes: '(max-width: 1280px) 100vw, 1280px'
-                widths:
-                  - 640
-                  - 1280
-                  - 2560
-                width:
-                height:
-                rounded: false
-                aspectRatio: none
-                positionVertical: center
-                positionHorizontal: center
-                priority: false
-              - _component: building-blocks/core-elements/image
-                source: /src/assets/images/combined-image-2.jpg
-                alternateSource:
-                alt: ''
-                sizes: '(max-width: 1280px) 100vw, 1280px'
-                widths:
-                  - 640
-                  - 1280
-                  - 2560
-                width:
-                height:
-                rounded: false
-                aspectRatio: none
-                positionVertical: center
-                positionHorizontal: center
-                priority: false
-        autoPlay: true
-        autoScroll: false
-        loop: true
-        showIndicators: true
-        indicatorStyle: dots
-        showArrows: true
-        alignmentHorizontal: center
-        slidesToScroll: auto
-        slideWidthPercent: 100
-        minSlideWidth: 0
-        gap: none
-    maxContentWidth: 2xl
-    paddingHorizontal: md
-    paddingVertical: md
-    colorScheme: inherit
-    backgroundColor: base
-    background:
-      type: image
-      positionVertical: top
-      positionHorizontal: center
-      priority: false
-      imageSource: ''
-      imageAlt: ''
-      videoSource:
-      overlay: 0
-    rounded: false
-    useDefaultEditableBinding: true
 ---
