@@ -53,4 +53,27 @@ pageSections:
       imageSource: ''
       imageAlt: ''
       overlay: 0
+  - _component: page-sections/features/feature-slider
+    sectionLabel: ''
+    slides:
+      - _component: page-sections/features/feature-slider/feature-slider-item
+        eyebrow: ''
+        title: Slide title
+        description: Short description for this slide.
+        imageSource: /src/assets/images/combined-image.jpg
+        imageAlt: Slide image alt text
+    maxContentWidth: xl
+    paddingHorizontal: lg
+    paddingVertical: 4xl
+    colorScheme: inherit
+    backgroundColor: base
+    background:
+      type: image
+      positionVertical: top
+      positionHorizontal: center
+      priority: false
+      imageSource: ''
+      imageAlt: ''
+      videoSource:
+      overlay: 0
 ---
