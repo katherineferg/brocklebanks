@@ -80,6 +80,18 @@ pageSections:
         description: Short description for this slide.
         imageSource: /src/assets/images/img-2024.jpg
         imageAlt: Slide image alt text
+      - _component: page-sections/features/feature-slider/feature-slider-item
+        eyebrow: ''
+        title: Before
+        description: Short description for this slide.
+        imageSource: /src/assets/images/03290c77.jpg
+        imageAlt: Slide image alt text
+      - _component: page-sections/features/feature-slider/feature-slider-item
+        eyebrow: ''
+        title: After
+        description: Short description for this slide.
+        imageSource: /src/assets/images/635033ba.jpg
+        imageAlt: Slide image alt text
     maxContentWidth: md
     paddingHorizontal: lg
     paddingVertical: 4xl
