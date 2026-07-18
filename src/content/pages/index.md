@@ -53,20 +53,30 @@ pageSections:
       imageSource: ''
       imageAlt: ''
       overlay: 0
-  - _component: page-sections/features/feature-split
+  - _component: page-sections/features/feature-slider
     sectionLabel: ''
-    eyebrow: Eyebrow text
-    heading: Heading text
-    subtext: Subtext placeholder text that will be replaced with actual content.
-    buttonSections: []
-    imageSource: /src/assets/images/combined-image-5.jpg
-    imageAlt: Feature image
-    imageAspectRatio: portrait
-    imageRounded: true
-    reverse: true
-    maxContentWidth: xl
-    paddingHorizontal: md
-    paddingVertical: md
+    slides:
+      - _component: page-sections/features/feature-slider/feature-slider-item
+        eyebrow: ''
+        title: Slide title
+        description: Short description for this slide.
+        imageSource: /src/assets/images/combined-image-1-1.jpg
+        imageAlt: Slide image alt text
+      - _component: page-sections/features/feature-slider/feature-slider-item
+        eyebrow: ''
+        title: Slide title
+        description: Short description for this slide.
+        imageSource: /src/assets/images/combined-image-1.jpg
+        imageAlt: Slide image alt text
+      - _component: page-sections/features/feature-slider/feature-slider-item
+        eyebrow:
+        title: Before & After
+        description: Short description for this slide.
+        imageSource: /src/assets/images/combined-image-2.jpg
+        imageAlt: Slide image alt text
+    maxContentWidth: xs
+    paddingHorizontal: lg
+    paddingVertical: 4xl
     colorScheme: inherit
     backgroundColor: base
     background:
@@ -74,7 +84,7 @@ pageSections:
       positionVertical: top
       positionHorizontal: center
       priority: false
-      imageSource: /src/assets/images/combined-image-4.jpg
+      imageSource:
       imageAlt: ''
       videoSource:
       overlay: 0
