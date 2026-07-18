@@ -58,23 +58,29 @@ pageSections:
     slides:
       - _component: page-sections/features/feature-slider/feature-slider-item
         eyebrow: ''
-        title: Slide title
-        description: Short description for this slide.
-        imageSource: /src/assets/images/combined-image-1-1.jpg
+        title: BEFORE
+        description:
+        imageSource: /src/assets/images/img-1582.jpg
         imageAlt: Slide image alt text
       - _component: page-sections/features/feature-slider/feature-slider-item
         eyebrow: ''
-        title: Slide title
-        description: Short description for this slide.
-        imageSource: /src/assets/images/combined-image-1.jpg
+        title: AFTER
+        description:
+        imageSource: /src/assets/images/img-1584-1.jpg
         imageAlt: Slide image alt text
       - _component: page-sections/features/feature-slider/feature-slider-item
-        eyebrow:
-        title: Before & After
+        eyebrow: ''
+        title: Before
         description: Short description for this slide.
-        imageSource: /src/assets/images/combined-image-2.jpg
+        imageSource: /src/assets/images/img-2022-1.jpg
         imageAlt: Slide image alt text
-    maxContentWidth: xs
+      - _component: page-sections/features/feature-slider/feature-slider-item
+        eyebrow: ''
+        title: After
+        description: Short description for this slide.
+        imageSource: /src/assets/images/img-2024.jpg
+        imageAlt: Slide image alt text
+    maxContentWidth: md
     paddingHorizontal: lg
     paddingVertical: 4xl
     colorScheme: inherit
