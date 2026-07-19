@@ -4,10 +4,45 @@ title: Home
 description: Local leather upholstery service in Dunedin, Otago
 keywords: []
 pageSections:
+  - _component: page-sections/builders/custom-section
+    label: ''
+    contentSections:
+      - _component: building-blocks/core-elements/image
+        source: /src/assets/images/full-logo-leather-services.png
+        alternateSource:
+        alt: ''
+        sizes: '(max-width: 1280px) 100vw, 1280px'
+        widths:
+          - 640
+          - 1280
+          - 2560
+        width:
+        height:
+        rounded: false
+        aspectRatio: horizontal-strip
+        positionVertical: center
+        positionHorizontal: center
+        priority: false
+    maxContentWidth: 2xl
+    paddingHorizontal: md
+    paddingVertical: md
+    colorScheme: inherit
+    backgroundColor: base
+    background:
+      type: image
+      positionVertical: top
+      positionHorizontal: center
+      priority: false
+      imageSource: ''
+      imageAlt: ''
+      videoSource:
+      overlay: 0
+    rounded: false
+    useDefaultEditableBinding: true
   - _component: page-sections/heroes/hero-center
     sectionLabel:
     eyebrow:
-    heading: Brocklebanks Leather Dyeing and Restoration
+    heading: Leather Dyeing and Restoration
     subtext: >-
       Over 60 years experience serving Otago. Proudly locally owned and operated
       in Dunedin NZ.
@@ -22,7 +57,7 @@ pageSections:
       positionVertical: top
       positionHorizontal: center
       priority: false
-      imageSource: ''
+      imageSource:
       imageAlt: ''
       overlay: 0
   - _component: page-sections/features/feature-split
