@@ -1,8 +1,8 @@
 {
   "logoSource": "/src/assets/images/screenshot-2026-06-17-at-7-30-57-pm.png",
   "logoAlternateSource": "/src/assets/images/component-docs/acs-logo-dark.svg",
-  "logoAlt": "Astro Component Starter",
-  "themeToggle": true,
+  "logoAlt": "Brocklebanks Leather Services",
+  "themeToggle": false,
   "navData": [
     {
       "name": "Home",
