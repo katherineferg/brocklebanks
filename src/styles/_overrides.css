@@ -1,13 +1,15 @@
 @layer overrides {
   .logo-small {
     max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .logo-small .image-inner,
+  .logo-small picture,
   .logo-small img {
     width: auto;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
