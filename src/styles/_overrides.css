@@ -1,0 +1,11 @@
+@layer overrides {
+  .logo-small {
+    max-width: 200px;
+  }
+
+  .logo-small .image-inner,
+  .logo-small img {
+    width: auto;
+    height: auto;
+  }
+}

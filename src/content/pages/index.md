@@ -9,7 +9,7 @@ pageSections:
     contentSections:
       - _component: building-blocks/core-elements/image
         source: /src/assets/images/full-logo-leather-services.png
-        alternateSource:
+        class: logo-small
         alt: ''
         sizes: '(max-width: 1280px) 100vw, 1280px'
         widths:
