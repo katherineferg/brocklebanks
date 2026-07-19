@@ -27,22 +27,30 @@ pageSections:
       overlay: 0
   - _component: page-sections/features/feature-split
     sectionLabel: ''
-    eyebrow: What we offer
-    heading: Mobile shoe and leather upholstery recolouring
+    eyebrow:
+    heading:
     subtext: >-
-      Revive your favourite lounge suite to match your redecorating. Transform
-      your home, reinvigorate your wardrobe, shoes and accessories with our
-      leather recolouring and cleaning service. Brocklebanks are Dunedin and
-      Otago’s leather and suede cleaning experts.
+      ## Expert Leather Restoration & Colour Revival
+
+
+      We are experts in leather restoration, reviving and restoring leather
+      items to their former glory. We also specialise in changing the colour of
+      leather items, including shoes, handbags, car seats, lounge suites,
+      jackets, and more.
+
+
+      If your leather is looking tired, faded, or worn, we can restore it to
+      look like new. Take a look at the photos below to see the amazing results
+      of our leather restoration and colour transformation services.
     buttonSections: []
     imageSource: /src/assets/images/combined-image-2-1.jpg
     imageAlt: Website Feature
     imageAspectRatio: none
-    imageRounded: false
+    imageRounded: true
     reverse: false
     maxContentWidth: xl
-    paddingHorizontal: lg
-    paddingVertical: lg
+    paddingHorizontal: md
+    paddingVertical: md
     colorScheme: inherit
     backgroundColor: base
     background:
@@ -77,7 +85,7 @@ pageSections:
       - _component: page-sections/features/feature-slider/feature-slider-item
         eyebrow: ''
         title: After
-        description: Short description for this slide.
+        description: After
         imageSource: /src/assets/images/img-2024.jpg
         imageAlt: Slide image alt text
       - _component: page-sections/features/feature-slider/feature-slider-item
