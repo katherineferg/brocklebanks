@@ -58,13 +58,13 @@ pageSections:
     slides:
       - _component: page-sections/features/feature-slider/feature-slider-item
         eyebrow: ''
-        title: BEFORE
+        title: Before
         description:
         imageSource: /src/assets/images/img-1582.jpg
         imageAlt: Slide image alt text
       - _component: page-sections/features/feature-slider/feature-slider-item
         eyebrow: ''
-        title: AFTER
+        title: After
         description:
         imageSource: /src/assets/images/img-1584-1.jpg
         imageAlt: Slide image alt text
@@ -94,7 +94,7 @@ pageSections:
         imageAlt: Slide image alt text
     maxContentWidth: md
     paddingHorizontal: lg
-    paddingVertical: 4xl
+    paddingVertical: md
     colorScheme: inherit
     backgroundColor: base
     background:
