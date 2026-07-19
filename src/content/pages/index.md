@@ -16,10 +16,10 @@ pageSections:
           - 640
           - 1280
           - 2560
-        width: 113
-        height: 38
+        width: 454
+        height: 152
         rounded: false
-        aspectRatio: none
+        aspectRatio: horizontal-strip
         positionVertical: center
         positionHorizontal: center
         priority: false
