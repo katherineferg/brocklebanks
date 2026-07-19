@@ -61,6 +61,27 @@ pageSections:
       imageSource: ''
       imageAlt: ''
       overlay: 0
+  - _component: page-sections/builders/custom-section
+    label:
+    contentSections:
+      - _component: building-blocks/core-elements/divider
+        paddingVertical: lg
+    maxContentWidth: 2xl
+    paddingHorizontal: md
+    paddingVertical: md
+    colorScheme: inherit
+    backgroundColor: base
+    background:
+      type: image
+      positionVertical: top
+      positionHorizontal: center
+      priority: false
+      imageSource: ''
+      imageAlt: ''
+      videoSource:
+      overlay: 0
+    rounded: false
+    useDefaultEditableBinding: true
   - _component: page-sections/features/feature-slider
     sectionLabel: ''
     slides:
@@ -114,4 +135,55 @@ pageSections:
       imageAlt: ''
       videoSource:
       overlay: 0
+  - _component: page-sections/builders/custom-section
+    label:
+    contentSections:
+      - _component: building-blocks/core-elements/divider
+        paddingVertical: lg
+    maxContentWidth: 2xl
+    paddingHorizontal: md
+    paddingVertical: md
+    colorScheme: inherit
+    backgroundColor: base
+    background:
+      type: image
+      positionVertical: top
+      positionHorizontal: center
+      priority: false
+      imageSource: ''
+      imageAlt: ''
+      videoSource:
+      overlay: 0
+    rounded: false
+    useDefaultEditableBinding: true
+  - _component: page-sections/builders/custom-section
+    label: ''
+    contentSections:
+      - _component: building-blocks/core-elements/text
+        text: |-
+          ### Contact
+
+          📞 123 456 789
+
+          📧 roger@email.com
+
+          📍Dunedin
+        alignmentHorizontal: start
+        size: xl
+    maxContentWidth: 2xl
+    paddingHorizontal: md
+    paddingVertical: md
+    colorScheme: inherit
+    backgroundColor: base
+    background:
+      type: image
+      positionVertical: top
+      positionHorizontal: center
+      priority: false
+      imageSource: ''
+      imageAlt: ''
+      videoSource:
+      overlay: 0
+    rounded: false
+    useDefaultEditableBinding: true
 ---
