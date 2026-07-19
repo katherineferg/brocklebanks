@@ -1,8 +1,8 @@
 {
   "_schema": "seo",
-  "name": "Astro Component Starter",
+  "name": "Brocklebanks",
   "url": "https://example.com",
-  "description": "Build fast, customizable Astro sites with a modern component starter that is easy to edit and maintain.",
+  "description": "Brocklebanks leather services",
   "logoSource": "/src/assets/images/screenshot-2026-06-17-at-7-30-57-pm.png",
-  "titleFormat": "{title} | Astro Component Starter"
+  "titleFormat": "Brocklebanks Leather Services"
 }
