@@ -9,7 +9,6 @@ pageSections:
     contentSections:
       - _component: building-blocks/core-elements/image
         source: /src/assets/images/full-logo-leather-services.png
-        class: logo-small
         alt: ''
         sizes: '(max-width: 1280px) 100vw, 1280px'
         widths:
@@ -23,6 +22,7 @@ pageSections:
         positionVertical: center
         positionHorizontal: center
         priority: false
+        class: logo-small
     maxContentWidth: 2xl
     paddingHorizontal: md
     paddingVertical: md
@@ -43,9 +43,8 @@ pageSections:
     sectionLabel:
     eyebrow:
     heading: Leather Dyeing and Restoration
-    subtext: >-
-      Over 60 years experience serving Otago. Proudly locally owned and operated
-      in Dunedin NZ.
+    subtext: Over 60 years experience serving Otago. Proudly locally owned and
+      operated in Dunedin NZ.
     buttonSections: []
     maxContentWidth: 2xl
     paddingHorizontal: lg
@@ -68,10 +67,10 @@ pageSections:
       ## Expert Leather Restoration & Colour Revival
 
 
-      We are experts in leather restoration, reviving and restoring leather
-      items to their former glory. We also specialise in changing the colour of
-      leather items, including shoes, handbags, car seats, lounge suites,
-      jackets, and more.
+      We are experts in leather restoration, reviving and restoring items to
+      their former glory. We also specialise in changing the colour of leather
+      items, including shoes, handbags, car seats, lounge suites, jackets, and
+      more.
 
 
       If your leather is looking tired, faded, or worn, we can restore it to
@@ -155,6 +154,12 @@ pageSections:
         title: After
         description: Short description for this slide.
         imageSource: /src/assets/images/635033ba.jpg
+        imageAlt: Slide image alt text
+      - _component: page-sections/features/feature-slider/feature-slider-item
+        eyebrow: ''
+        title: Slide title
+        description: Short description for this slide.
+        imageSource: /src/assets/images/component-docs/sunset.jpg
         imageAlt: Slide image alt text
     maxContentWidth: md
     paddingHorizontal: lg
