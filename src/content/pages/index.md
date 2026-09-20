@@ -209,10 +209,10 @@ pageSections:
 
           📍Dunedin
         alignmentHorizontal: start
-        size: xl
+        size: md
     maxContentWidth: 2xl
     paddingHorizontal: md
-    paddingVertical: md
+    paddingVertical: none
     colorScheme: inherit
     backgroundColor: base
     background:
