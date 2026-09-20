@@ -3,9 +3,12 @@
     max-width: 600px;
   }
 
-  .logo-small {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  .logo-small .image-inner,
+  .logo-small picture,
+  .logo-small img {
+    width: 454px;
+    height: 152px;
+    display: block;
+    margin: 0 auto;
   }
 }
