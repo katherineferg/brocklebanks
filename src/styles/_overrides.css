@@ -1,6 +1,6 @@
 @layer overrides {
   .logo-small {
-    max-width: 600px;
+    /* max-width: 600px; */
   }
 
   .logo-small {
