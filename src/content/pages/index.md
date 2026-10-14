@@ -17,6 +17,9 @@ pageSections:
           - 2560
         width: 454
         height: 152
+        display: flex
+        alignItems: center
+        flexDirection: column
         rounded: false
         aspectRatio: horizontal-strip
         positionVertical: center
